@@ -1,0 +1,12 @@
+nome = input('Qual seu nome? ')
+profissao = input('E sua profissão? ')
+ad1 = input('O que está achando da sua turma da Generation? ')
+ad2 = input('E de seu instrutor? ')
+comida1 = input('Me conte, o que você almoçou hoje? ')
+comida2 = input('Que mais? ')
+sentimento = input('E como tem se sentido? ')
+
+print(f'\n{nome} começou hoje o seu primeiro curso na Generation Brasil. \nEstá cursando a formação em {profissao}')
+print(f'Achou a sua turma muito {ad1} mas o instrutor era, no mínimo, {ad2}.')
+print(f'No almoço, comeu {comida1} e {comida2} enquanto revisava as suas anotações.')
+print(f'Ao final do dia, sente-se {sentimento}, mas tem a determinação de concluir a jornada.')
